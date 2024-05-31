@@ -1,0 +1,19 @@
+# IDE directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store*
+
+# Move related files
+voxelverses/build/
+voxelverses/Move.lock
+
+suifrens/build/
+suifrens/Move.lock
+
