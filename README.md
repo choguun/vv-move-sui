@@ -15,8 +15,8 @@ in which users truly own their assets by leveraging blockchain, IPFS, and AI tec
 ### Tech and solution
 
 1. Smart Contract
-     1.1 On-chain in-game Items and Token
-     1.2 Game Logic
+     1.1 On-chain in-game Items and Token \
+     1.2 Game Logic \
 2. IPFS Storage to store game metadata
 3. WebGL
 4. Web Socket
@@ -40,7 +40,7 @@ https://www.canva.com/design/DAGDk21L4QA/d8iyvGYSFjGqpE9FFBd6dA/edit
 2. Platform fees
 
 ### Deployed Smart Contract
-<b>PackageID</b> 0x347acea7310a88809f9ef6ce5f2ac03f30bd2617b41a74f71344533716aa0fad \
-<b>game_token::GameTokenStore</b> 0xdd49cf9b603ebe2d0d8273c553381aac11c23628087a60a1f314621b05535362 \
-<b>TokenPolicy</b> 0x4e4fc410f2d9f6c73324c8e2cb6e9d32d7f52ba19140909ec53b75ec0b418144 \
+<b>PackageID</b> 0xc2e270d473aa75dbf490ff5f0ea584c6b8a8140418b81fc931b20402de1c926f \
+<b>game_token::GameTokenStore</b> 0x1a5c6d9ba4dc557ee7c7f0dc4763cf7b4118ea2fcbb176606b08a87bbb3fbfbf \
+<b>TokenPolicy</b> 0x9bfd77c872133ac0db33c113366a497c49e80311d1afcf33d6cbcd55e601f074 \
 <b>Random</b>  0x0000000000000000000000000000000000000000000000000000000000000008
