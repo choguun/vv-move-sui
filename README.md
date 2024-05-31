@@ -7,10 +7,10 @@ in which users truly own their assets by leveraging blockchain, IPFS, and AI tec
 
 ![GUI](/gui.png "GUI")
 
-### How to deploy minecraft-contract
+### How to deploy voxelverses contracts
 
-* npx hardhat deploy
-* node script/world_setup.js
+* cd voxelverses
+* sui client publish --gas-budget 100000000 .
 
 ### Tech and solution
 
