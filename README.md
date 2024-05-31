@@ -31,7 +31,7 @@ in which users truly own their assets by leveraging blockchain, IPFS, and AI tec
 5. In-game items eg. pickaxe.
 
 Demo:
-https://www.voxelverses.xyz \
+https://beta.voxelverses.xyz \
 Deck:
 https://www.canva.com/design/DAGDk21L4QA/d8iyvGYSFjGqpE9FFBd6dA/edit
 
