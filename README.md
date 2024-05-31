@@ -14,7 +14,7 @@ in which users truly own their assets by leveraging blockchain, IPFS, and AI tec
 
 ### Tech and solution
 
-1. Smart Contract
+1. Smart Contract \
      1.1 On-chain in-game Items and Token \
      1.2 Game Logic \
 2. IPFS Storage to store game metadata
