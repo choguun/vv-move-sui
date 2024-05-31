@@ -24,7 +24,7 @@ in which users truly own their assets by leveraging blockchain, IPFS, and AI tec
 
 ### Key Features:
 
-1. Mint Profile NFT to access game.
+1. Mint Profile NFT to access the game.
 2. Mint Character NFT to choose default character or SUIFrens NFT.
 3. Quest.
 4. In-game token.
