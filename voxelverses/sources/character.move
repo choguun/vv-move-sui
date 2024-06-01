@@ -19,10 +19,12 @@ module voxelverses::character {
         inventory: vector<u16>
     }
 
-
     public struct CharacterNFT has key, store {
         id: UID,
     }
+
+    const ELimitExp: u64 = 0;
+    const EWrongExp: u64 = 1;
 
     public fun mint(ctx: &mut TxContext) {
         let mut nft = CharacterNFT {
@@ -52,15 +54,24 @@ module voxelverses::character {
     }
 
     public fun up_exp(data: &mut GameData) {
+        assert!(data.level < 100, ELimitExp);
+
         data.experience = data.experience + 1;
     }
 
     public fun up_level(data: &mut GameData) {
+        assert!(data.level != 100, EWrongExp);
+
+        data.experience = 0;
         data.level = data.level + 1;
     }
 
     public fun add_item(data: &mut GameData, item: u16) {
         let size = data.inventory.length();
-        data.inventory.insert(item, size+1);
+        data.inventory.insert(item, size);
+    }
+
+    public fun remove_item(data: &mut GameData, idx: u64) {
+        data.inventory.remove(idx);
     }
 }
